@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pagination System</h1>
+        <input type="text" id="searchInput" placeholder="Search items...">
+        <ul id="itemList"></ul>
+        <div id="pagination"></div>
+        <div id="itemsPerPageSelect">
+            Items per page: 
+            <select id="itemsPerPageDropdown">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+        <div id="totalItems"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
